@@ -73,8 +73,3 @@ GitHub: [@wayphantomme](https://github.com/wayphantomme)
 > This project is built for learning purposes and as part of the AI internship (2025).
 
 ```
-
----
-
-Kalau kamu mau, aku bisa bantu juga bikin versi `.md` siap upload atau bantuin push ke GitHub. Mau lanjut?
-```
