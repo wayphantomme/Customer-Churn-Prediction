@@ -14,26 +14,25 @@ This project is a machine learning pipeline to predict customer churn using tele
 
 This dataset includes 7,000+ customer records with 21 features such as tenure, service plans, internet usage, and customer demographics.
 
-## 🚀 Project Structure
 
-```
+## 📁 Project Structure
 
+```text
 CustomerChurnPrediction/
 │
-├── data/                         # Dataset location
-│   └── WA\_Fn-UseC\_-Telco-Customer-Churn.csv
+├── data/                  # Dataset location
+│   └── WA_Fn-UseC_-Telco-Customer-Churn.csv
 │
-├── notebooks/
-│   └── churn\_modeling.ipynb      # Jupyter Notebook with full pipeline
+├── notebooks/             # Jupyter Notebook with full pipeline
+│   └── churn_modeling.ipynb
 │
-├── models/                       # Trained model files (optional)
+├── models/                # Trained model files (optional)
 │
-├── outputs/                      # Generated plots and reports
+├── outputs/               # Generated plots and reports
 │
-├── requirements.txt              # Python dependencies
-└── README.md                     # Project documentation
+├── requirements.txt       # Python dependencies
+└── README.md              # Project documentation
 
-````
 
 ## 🧠 Methods Used
 
