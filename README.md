@@ -1,19 +1,22 @@
-**Customer Churn Prediction with Machine Learning**
+# 📉 Customer Churn Prediction with Machine Learning
 
----
 
-```markdown
-# Customer Churn Prediction with Machine Learning
+````markdown
+This project uses machine learning to predict customer churn in a telecom company based on historical customer data. The goal is to help businesses identify customers who are likely to leave so they can take preventive action.
 
-This project is a machine learning pipeline to predict customer churn using telecom data. The goal is to classify whether a customer is likely to stop using the service (churn) based on their demographic, service usage, and account data.
+## 📌 Project Highlights
 
-## 📊 Dataset
+- Dataset: [Telco Customer Churn](https://www.kaggle.com/datasets/blastchar/telco-customer-churn)
+- Language: Python
+- Models: Logistic Regression, Random Forest, XGBoost
+- Tools: Pandas, Scikit-Learn, Matplotlib, Seaborn
 
-- **Source**: [Kaggle - Telco Customer Churn](https://www.kaggle.com/datasets/blastchar/telco-customer-churn)
-- **Filename**: `WA_Fn-UseC_-Telco-Customer-Churn.csv`
+## 🧠 What’s Included
 
-This dataset includes 7,000+ customer records with 21 features such as tenure, service plans, internet usage, and customer demographics.
-
+- Data cleaning and preprocessing
+- Exploratory data analysis (EDA)
+- Machine learning model training and evaluation
+- Performance metrics visualization
 
 ## 📁 Project Structure
 
@@ -32,51 +35,46 @@ CustomerChurnPrediction/
 │
 ├── requirements.txt       # Python dependencies
 └── README.md              # Project documentation
+````
 
+## 🚀 Getting Started
 
-## 🧠 Methods Used
+1. Clone this repository:
 
-- Exploratory Data Analysis (EDA)
-- Data Cleaning & Encoding
-- Feature Engineering
-- Train/Test Split
-- Classification Algorithms:
-  - Logistic Regression
-  - Random Forest
-  - XGBoost
-- Model Evaluation:
-  - Accuracy, Precision, Recall, F1-Score
-  - Confusion Matrix
+```bash
+git clone https://github.com/wayphantomme/CustomerChurnPrediction.git
+cd CustomerChurnPrediction
+```
 
-## 📈 Results
-
-Best model achieved high recall and balanced performance on unseen test data, helping identify customers likely to churn before it happens.
-
-## 📌 Requirements
-
-Install dependencies with:
+2. Install the required dependencies:
 
 ```bash
 pip install -r requirements.txt
-````
+```
 
-Or open the notebook directly in JupyterLab.
+3. Launch the notebook:
 
-## 💡 Future Improvements
+```bash
+jupyter notebook notebooks/churn_modeling.ipynb
+```
 
-* Hyperparameter tuning (GridSearchCV)
-* Deployment using Flask/FastAPI
-* Model explainability with SHAP or LIME
-* Use of deep learning for sequential features
+## 📦 Dataset Info
 
-## 👤 Author
+* **File:** `WA_Fn-UseC_-Telco-Customer-Churn.csv`
+* **Source:** [Kaggle - Telco Customer Churn](https://www.kaggle.com/datasets/blastchar/telco-customer-churn)
 
-* **Name**: Wayan Phantom Megaditha
-* **GitHub**: [@wayphantomme](https://github.com/wayphantomme)
+## ✍️ Author
+
+**Wayan Phantom Megaditha**
+GitHub: [@wayphantomme](https://github.com/wayphantomme)
 
 ---
 
-> This project is built as part of an AI internship application to showcase practical machine learning skills.
+> This project is built for learning purposes and as part of the AI internship (2025).
 
 ```
 
+---
+
+Kalau kamu mau, aku bisa bantu juga bikin versi `.md` siap upload atau bantuin push ke GitHub. Mau lanjut?
+```
