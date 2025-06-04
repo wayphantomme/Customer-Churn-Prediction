@@ -1,4 +1,3 @@
-Berikut adalah isi **README.md** profesional dan menarik untuk proyek GitHub-mu:
 **Customer Churn Prediction with Machine Learning**
 
 ---
